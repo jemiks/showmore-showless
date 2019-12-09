@@ -1,0 +1,48 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.show-less {
+   
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-family: Helvetica;
+    width: 200px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: rgb(55, 55, 58);
+    text-transform: capitalize;
+    word-break: break-word;
+    overflow: hidden;
+}
+
+.show-more {
+   
+    font-size: 14px;
+    font-family: Helvetica;
+    width: 200px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: rgb(55, 55, 58);
+    text-transform: capitalize;
+    word-break: break-word;
+}
+
+
+.container{
+    width: 200px;
+}
+
+button{
+    background-color: cadetblue;
+    outline: none;
+}
